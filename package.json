@@ -1,0 +1,15 @@
+{
+  "name": "@qderai/icount",
+  "version": "0.1.0",
+  "description": "A small, typed client for the iCount invoicing API: documents, receipts for bank transfers, cancellations, bank accounts. Amounts in agorot.",
+  "type": "module",
+  "license": "Apache-2.0",
+  "author": "Qder AI (https://qder.ai)",
+  "repository": { "type": "git", "url": "git+https://github.com/qderai/icount-js.git" },
+  "keywords": ["icount", "invoice", "receipt", "israel", "accounting", "cloudflare-workers"],
+  "exports": { ".": { "types": "./src/index.d.ts", "default": "./src/index.js" } },
+  "types": "./src/index.d.ts",
+  "files": ["src", "LICENSE", "NOTICE"],
+  "scripts": { "test": "node --test test/*.test.js" },
+  "engines": { "node": ">=18" }
+}
