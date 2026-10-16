@@ -1,4 +1,4 @@
-// Copyright 2026 Qder AI (Itay Funes). Licensed under the Apache License, Version 2.0.
+// Copyright 2026 Qder AI. Licensed under the Apache License, Version 2.0.
 /**
  * A small client for the iCount API (https://api.icount.co.il), the Israeli invoicing and bookkeeping service.
  *
